@@ -1,0 +1,146 @@
+// @import "../../scss/var";
+
+.aboutSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 196px;
+  position: relative;
+
+  @media only screen and (max-width: 1366px) {
+    height: 100vh;
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 1024px) {
+    height: 100%;
+    padding: 112px 0;
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 992px) {
+    height: 90vh;
+  }
+  @media only screen and (max-width: 768px) {
+    height: initial;
+    margin-top: 52px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin-top: 0;
+  }
+}
+
+.introHead {
+  // transform: translateY(-10%);
+  h1 {
+    font-size: 96px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $secondary-color;
+    margin-bottom: 16px;
+  }
+
+  p {
+    margin-bottom: 44px;
+  }
+}
+
+.abtHeroImage {
+  > svg {
+    width: auto;
+    height: 100%;
+  }
+  @media screen and (max-width: 1440px) {
+    width: 80%;
+    margin: 0 auto;
+
+    > svg {
+      width: 80%;
+      height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    > svg {
+      width: 55%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    > svg {
+      width: 551px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    > svg {
+      width: 324px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    > svg {
+      width: 298px;
+    }
+  }
+
+  @media only screen and (max-width: 1366px) {
+    width: auto;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .aboutSection {
+    margin-bottom: 112px;
+  }
+  .introHead {
+    h1 {
+      font-size: 76px;
+    }
+    p {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .introHead {
+    h1 {
+      font-size: 56px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .introHead {
+    h1 {
+      font-size: 56px;
+    }
+    p {
+      margin-bottom: 34px;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .aboutSection {
+    margin-bottom: 0px;
+  }
+  .introHead {
+    h1 {
+      font-size: 44px;
+    }
+    p {
+      margin-bottom: 34px;
+    }
+  }
+}
