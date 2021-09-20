@@ -37,7 +37,7 @@ const Title = styled.h2`
   margin-bottom: 16px;
 `;
 
-const Description = styled.h4`
+const Description = styled.div`
   margin: 0;
   color: rgba(255, 255, 255, 0.7);
 `;

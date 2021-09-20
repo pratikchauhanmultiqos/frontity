@@ -1,14 +1,28 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "c76e6d1c72726404b4fb",
+  "hash": "07684d3134d6a96bce42",
   "publicPath": "/static/",
   "outputPath": "/home/multiqos/Documents/Ashwin/frontity/my-first-frontity-project/build/static",
   "assetsByChunkName": {
     "list": "list.module.js",
-    "my-first-frontity-project": "my-first-frontity-project.module.js"
+    "my-first-frontity-project": [
+      "my-first-frontity-project.module.js",
+      "my-first-frontity-project.11dbe7e0a5437ec2fed7.hot-update.js"
+    ]
   },
   "assets": [
+    {
+      "name": "11dbe7e0a5437ec2fed7.hot-update.json",
+      "size": 67,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
     {
       "name": "list.module.js",
       "size": 47501,
@@ -22,8 +36,23 @@
       "emitted": false
     },
     {
+      "name": "my-first-frontity-project.11dbe7e0a5437ec2fed7.hot-update.js",
+      "size": 14416,
+      "chunks": [
+        "my-first-frontity-project"
+      ],
+      "chunkNames": [
+        "my-first-frontity-project"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "my-first-frontity-project.module.js",
-      "size": 6642754,
+      "size": 6641900,
       "chunks": [
         "my-first-frontity-project"
       ],
@@ -31,7 +60,7 @@
         "my-first-frontity-project"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -41,7 +70,8 @@
         "my-first-frontity-project"
       ],
       "assets": [
-        "my-first-frontity-project.module.js"
+        "my-first-frontity-project.module.js",
+        "my-first-frontity-project.11dbe7e0a5437ec2fed7.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -68,7 +98,8 @@
     {
       "id": "my-first-frontity-project",
       "files": [
-        "my-first-frontity-project.module.js"
+        "my-first-frontity-project.module.js",
+        "my-first-frontity-project.11dbe7e0a5437ec2fed7.hot-update.js"
       ]
     }
   ]

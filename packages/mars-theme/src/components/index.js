@@ -45,7 +45,7 @@ const Theme = ({ state }) => {
       <Main>
         <Switch>
           <Loading when={data.isFetching} />
-          <HomePage when={data.isHome}/>
+          {/*<HomePage when={data.isHome}/>*/}
           <List when={data.isArchive} />
           <AboutUs when={data.route === "/about-test/"} />
           <Contact when={data.route === "/contact/"} />

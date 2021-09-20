@@ -2,7 +2,7 @@ const settings = {
   "name": "my-first-frontity-project",
   "state": {
     "frontity": {
-      "url": "https://ill-favored-stubs.000webhostapp.com/",
+      "url": "https://blog.multiqos.com/",
       "title": "MultiQos Website",
       "description": "WordPress installation for Frontity development"
     }
@@ -37,7 +37,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://ill-favored-stubs.000webhostapp.com/"
+          "url": "https://blog.multiqos.com/"
         }
       }
     },
